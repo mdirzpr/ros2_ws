@@ -46,7 +46,7 @@ RUN echo "if [ -f /usr/share/colcon_cd/function/colcon_cd-argcomplete.bash ]; th
 
 # Installing CPP demo-nodes
 RUN apt-get update && apt-get install -y \
-    ros-jazzy-demo-nodes-cpp
+    ros-${ROS_DISTRO}-demo-nodes-cpp
 
 WORKDIR /home/${WORKSPACE}
 
