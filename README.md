@@ -11,6 +11,7 @@ git clone https://github.com/mdirzpr/ros2_ws.git
 Then, build the Docker image.
 
 ```
+cd ros2_ws
 docker compose build
 ```
 
