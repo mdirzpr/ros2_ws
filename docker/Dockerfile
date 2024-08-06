@@ -35,7 +35,6 @@ RUN mkdir -p /home/${WORKSPACE}/src
 
 # Copy src and ws_files to the container
 COPY src /home/${WORKSPACE}/src
-COPY ws_files /home/${WORKSPACE}/ws_files
 COPY *.sh /home/${WORKSPACE}
 
 # Source ROS 2 setup script
