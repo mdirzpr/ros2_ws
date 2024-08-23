@@ -34,5 +34,6 @@ After that, open another terminal and start another container using the same com
 ros2 run demo_nodes_cpp listener
 ```
 
-## Developer and maintainer:
-- [Mahdi Rezapour](mahdi.rezapour@smartfactory.de)
+### Developer and Maintainer
+- [Mahdi Rezapour](https://github.com/mdirzpr)
+- Email: mahdi.rezapour@smartfactory.de
